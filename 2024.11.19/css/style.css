@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.nav-bar{
+    margin: 40px;
+}
+.nav-container{
+    max-width: 1960px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.nav-list{
+    display: flex;
+}
+
+.nav-list li{
+    padding: 5px 20px;
+    font-size: large;
+    font-weight: bold;
+    border-right: 2px solid #4c4c4c;
+}
+
+.nav-list li:last-child{
+    border-right: none; 
+}
+.Box1{
+    max-width: 960px;
+    width:100%;
+    display: flex;
+    gap:30px;
+    margin:0 auto;
+    margin-bottom: 50px; 
+}
+
+.bluebox{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    color: aliceblue;
+    /* boxの中の文字用 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box2{
+    max-width: 960px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+.redbox{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: aliceblue;
+    /* boxの中の文字用 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 767px) { 
+    .nav-container {
+        flex-direction: column;
+        align-items: left; /* 中央揃え */
+        gap: 20px; /* アイテム間のスペース調整 */
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: left; /* ナビゲーションアイテムの中央揃え */
+        
+    }
+
+    .nav-list li {
+        padding: 10px 0; /* 縦並びに適した余白調整 */
+        border-right: none; 
+        border-bottom: 2px solid #4c4c4c; /* 縦並び用に下線を追加 */
+        
+    }
+
+    .nav-list li:last-child {
+        border-bottom: none; /* 最後のアイテムの下線を消す */
+    }
+}

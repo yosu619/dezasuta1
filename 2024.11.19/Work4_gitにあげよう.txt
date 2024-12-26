@@ -1,0 +1,8 @@
+Work 1,2,3の宿題をgit hubにあげてください。
+参考 https://ferret-plus.com/8498
+
+あげたら
+URLを送って提出完了です。
+
+こちら、URLの例です。
+https://github.com/yamaguchiyoshiharu55/bbb/

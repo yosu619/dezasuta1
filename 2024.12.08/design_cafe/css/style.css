@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:7.6%;
+    padding-left:2.8%;
+    position: absolute; /*absoluteを使うとwidthを失う*/
+    width: 100%;
+}
+
+.header__navlist{
+    display: flex;
+    gap: 77px;
+}
+
+.header__nav-item{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+.logo{
+    width: 227px;
+}
+
+#wrapper{
+    background-color:#E6D6BD;
+}
+/* 少ない表現で効率的だけど、だれでも読めるcssコードにする方法が知りたい */
+/* 基本的にmargin-top1個ずつおいて調整すれば良い感じなのだろうか？ */
+/* divを中央に寄せるときはjustifycontentを使うだけでいいのだろうか？margin 0 autoやtext-align:centerの活躍場はないのか？*/
+/*すべてのclass名～_titleのwidthを合わせる方法が知りたい */
+.TOP_inner{
+    padding: 100px;
+    text-align: center;
+}
+
+.TOP_catchcopy{
+    margin-top: 60px;
+    font-size: 50px;
+    line-height: 60px;
+}
+.TOP_text{
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+
+.aboutus_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus_left_container img{
+    height: 560px;
+    width: 500px;
+    object-fit: cover;
+    border-bottom-right-radius: 50px;
+}
+.aboutus_right_container{
+    margin: 50px;
+}
+.aboutus_right_title img{
+    width: 50%;
+}
+.aboutus_right__heading h2{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 60px;
+}
+.aboutus_right__paragraph{
+    padding-top: 50px;
+}
+.aboutus_right__paragraph p{
+    line-height: 25px;
+}
+
+.menu_inner{
+    margin-top: 100px;
+}
+.menu_title{
+    text-align: center;
+}
+.menu_title img{
+    width: 12%;
+}
+
+.menu-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 35px;
+}
+
+.menu_contents img{
+    height: 200px;
+    width: 300px;
+    border-top-right-radius: 50px;
+}
+.menu_contents h3{
+    font-size: 30px;
+    color: #D30202;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+.menu_contents p{
+    margin-top:25px ;
+    line-height: 24px;
+}
+.gallery_inner{
+    margin-top: 90px;
+}
+.gallery_title{
+    text-align: center;
+}
+.gallery_title img{
+    width: 12%;
+}
+.gallery_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.event_inner{
+    margin-top: 90px;
+}
+.event_title{
+    text-align: center;
+}
+.event_title img{
+    width: 12%;
+}
+.event_block{
+    width: 780px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top:35px;
+    padding-bottom:35px;
+    padding-right:160px;
+    padding-left:160px;
+    border: #4F260B solid 3px;
+}
+.event_contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    &:not(:last-child) {
+    margin-bottom: 25px;
+    }
+}
+
+.event_postdate{
+    align-items: left;
+}
+
+
+.access_inner{
+    margin-top: 80px;
+}
+.access_title{
+    text-align: center;
+}
+.access_title img{
+    width: 12%;
+}
+.access_map{
+    margin-top:40px;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+    height: 470px;
+}
+
+.footer_column{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top:80px ;
+}
+.footer_logo img{
+    width: 230px;
+}
+
+.footer_countainer-datetaime{
+    margin-bottom: 23px;
+}
+.footer_countainer-address{
+    margin-bottom: 60px;
+}
+.footer_countainer-mail{
+    margin-bottom:80px ;
+}
+.footer_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_item{
+    margin-bottom: 80px;
+}
